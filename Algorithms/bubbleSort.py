@@ -13,8 +13,8 @@ Worst  - O(n**2)
 
 
 for i in range(n):
-    for j in range(n-i-1):    # last i elements are already in place
-        if arr[j] > arr[j+1] :
-                arr[j], arr[j+1] = arr[j+1], arr[j]
+    for j in range(n - i - 1):  # last i elements are already in place
+        if arr[j] > arr[j + 1]:
+            arr[j], arr[j + 1] = arr[j + 1], arr[j]
 
 print(arr)
