@@ -7,6 +7,7 @@ Space Complexity : O(1)
 
 """
 
+
 def linearSearch(arr, item):
     l = len(arr)
     # loops through the array sequentially
@@ -15,6 +16,7 @@ def linearSearch(arr, item):
         if arr[i] == item:
             return f"Element Found at index: {i}"
     return f"Element not found!"
+
 
 if __name__ == "__main__":
     arr = [2, 5, 3, 8, 34]
