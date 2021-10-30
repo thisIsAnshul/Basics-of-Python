@@ -7,7 +7,6 @@ import math
 
 PI = math.pi
 
-
 def square(num1):
     result = num1*num1
     print("Area of your square in square cm is: ",result)
